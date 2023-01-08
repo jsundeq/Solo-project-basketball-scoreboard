@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <section class="section">
+                <h3>HOME</h3>
+                    <article id="score" class="score">
+                        <h2 id="home-points"></h2>
+                    </article>
+                    <aside class="button-container">
+                        <button onclick="homeAdd1point()">+1</button>
+                        <button onclick="homeAdd2point()">+2</button>
+                        <button onclick="homeAdd3point()">+3</button>
+                    </aside>
+            </section>
+        
+            <section class="section">
+                <h3>GUEST</h3>
+                    <article id="score" class="score">
+                        <h2 id="guest-points"></h2>
+                    </article>
+                    <aside class="button-container">
+                        <button onclick="guestAdd1point()">+1</button>
+                        <button onclick="guestAdd2point()">+2</button>
+                        <button onclick="guestAdd3point()">+3</button>
+                    </aside>
+            </section>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
